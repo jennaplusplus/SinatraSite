@@ -19,3 +19,7 @@
  * public directory and use <img src="/name_of_image.png"> in your HTML
  * file. The "public" part of the path should *not* be included.
  */
+
+ body {
+   background-color: #0021A5;
+ }
