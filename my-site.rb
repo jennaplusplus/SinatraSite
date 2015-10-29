@@ -4,14 +4,17 @@ require "time"
 class MySite < Sinatra::Base
 
   get "/" do
+    @page = "Home"
     erb :index
   end
 
   get "/index" do
+    @page = "Home"
     erb :index
   end
 
   get "/about" do
+    @page = "About"
     @stats = {
       Name: "Jenna Nichols",
       City: "Seattle, WA",
@@ -25,10 +28,12 @@ class MySite < Sinatra::Base
   end
 
   get "/projects" do
+    @page = "Projects"
     erb :projects
   end
 
   get "/blog" do
+    @page = "Blog"
     erb :blog
   end
 
