@@ -1,4 +1,5 @@
 require "sinatra"
+require "time"
 
 class MySite < Sinatra::Base
 
