@@ -38,6 +38,6 @@ class MySite < Sinatra::Base
   end
 
   get "/test" do
-    erb :test
+    erb :test, {layout: false}
   end
 end
