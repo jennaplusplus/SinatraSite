@@ -30,7 +30,6 @@ body {
   background-color: #C1CBE2;
   margin-top: 0px;
   padding-bottom: 60px;
-
  }
 
  #main {
@@ -67,7 +66,6 @@ h1 {
 
 h2 {
   display: block;
-  margin-top: 0px;
   padding-top: 5px;
   margin-left: 10px;
   color: white;
@@ -91,6 +89,11 @@ img {
   display: block;
 }
 
+.main-images {
+  display: inline-block;
+  margin-top: -50px;
+}
+
 p {
   padding-left: 10px;
   color: black;
@@ -111,6 +114,7 @@ nav {
 
 ul {
   margin-top: -10px;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -124,6 +128,14 @@ footer {
   background-color: #0F337A;
 }
 
-a.footer-link {
+table {
+  font-family: 'Lato', sans-serif;
+}
+
+#table-section {
+  padding-top: 15px;
+}
+
+.footer-link {
   color: white;
 }
