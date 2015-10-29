@@ -12,6 +12,15 @@ class MySite < Sinatra::Base
   end
 
   get "/about" do
+    @stats = {
+      Name: "Jenna Nichols",
+      City: "Seattle, WA",
+      Age: "26",
+      Occupation: "Coder-in-training!"
+    }
+
+    @faves = ["French, especially Québec French", "Sociolinguistics", "Elephants", "College football (Go Gators!!)", "Arrested Development", "Board Games", "Karaoke", "My cats Bella and Luna"]
+
     erb :about
   end
 

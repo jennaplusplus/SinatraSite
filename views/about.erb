@@ -22,22 +22,12 @@
         </tr>
       </thead>
       <tbody>
+      <% @stats.each do |key, value| %>
         <tr>
-          <td><strong>Name:</strong></td>
-          <td>Jenna Nichols</td>
+          <td><strong><%= key %>:</strong></td>
+          <td><%= value %></td>
         </tr>
-        <tr>
-          <td><strong>City:</strong></td>
-          <td>Seattle, WA</td>
-        </tr>
-        <tr>
-          <td><strong>Age:</strong></td>
-          <td>26</td>
-        </tr>
-        <tr>
-          <td><strong>Occupation:</strong></td>
-          <td>Coder-in-training!</td>
-        </tr>
+      <% end %>
       </tbody>
     </table>
   </section>
@@ -58,14 +48,9 @@
     <p>
       Here are a few of my favorite things:
       <ul>
-        <li>French, especially Qu&eacute;bec French</li>
-        <li>Sociolinguistics</li>
-        <li>Elephants</li>
-        <li>College football (Go Gators!!)</li>
-        <li>Arrested Development</li>
-        <li>Board Games</li>
-        <li>Karaoke</li>
-        <li>My cats Bella and Luna</li>
+        <% @faves.each do |fave| %>
+          <li><%= fave %></li>
+        <% end %>
       </ul>
     </p>
   </section>
