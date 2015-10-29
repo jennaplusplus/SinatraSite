@@ -162,3 +162,7 @@ table {
   margin-right: 15px;
   padding-left: 10px;
 }
+
+.other-line {
+  margin-top: -16px;
+}
