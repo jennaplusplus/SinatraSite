@@ -5,19 +5,19 @@ class MySite < Sinatra::Base
 
   get "/" do
     @page = "Home"
-    @sports = ["baseball", "basketball/men", "basketball/women", "crosscounty", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
+    @sports = ["baseball", "basketball/men", "basketball/women", "crosscountry", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
     erb :index
   end
 
   get "/index" do
     @page = "Home"
-    @sports = ["baseball", "basketball/men", "basketball/women", "crosscounty", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
+    @sports = ["baseball", "basketball/men", "basketball/women", "crosscountry", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
     erb :index
   end
 
   get "/about" do
     @page = "About"
-    @sports = ["baseball", "basketball/men", "basketball/women", "crosscounty", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
+    @sports = ["baseball", "basketball/men", "basketball/women", "crosscountry", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
     @stats = {
       Name: "Jenna Nichols",
       City: "Seattle, WA",
@@ -32,13 +32,13 @@ class MySite < Sinatra::Base
 
   get "/projects" do
     @page = "Projects"
-    @sports = ["baseball", "basketball/men", "basketball/women", "crosscounty", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
+    @sports = ["baseball", "basketball/men", "basketball/women", "crosscountry", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
     erb :projects
   end
 
   get "/blog" do
     @page = "Blog"
-    @sports = ["baseball", "basketball/men", "basketball/women", "crosscounty", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
+    @sports = ["baseball", "basketball/men", "basketball/women", "crosscountry", "football", "golf/men", "golf/women", "gymnastics", "lacrosse", "soccer", "softball", "swimmingdiving/men", "swimmingdiving/women", "tennis/men", "tennis/women", "trackfield", "volleyball"]
     erb :blog
   end
 
