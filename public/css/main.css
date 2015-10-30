@@ -101,6 +101,11 @@ img {
   display: block;
 }
 
+#stroop {
+  margin-top: 0px;
+  padding: 10px 0px 0px 0px;
+}
+
 .main-images {
   display: inline-block;
   margin-top: -50px;
