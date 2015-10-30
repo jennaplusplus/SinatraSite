@@ -103,11 +103,9 @@ img {
 
 #stroop {
   margin-top: 0px;
-  margin-left: 10px;
-  padding: 10px 0px 0px 10px;
-  width: 400px;
-  height: 250px;
-  background-color: white;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
 }
 
 .main-images {
