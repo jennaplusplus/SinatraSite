@@ -37,7 +37,11 @@ class MySite < Sinatra::Base
     erb :blog
   end
 
-  get "/test" do
-    erb :test, {layout: false}
-  end
+  # get "/test" do
+  #   erb :test, {layout: false}
+  # end
+  #
+  # post "/blog" do
+  #   @times = params[:message]
+  # end
 end
