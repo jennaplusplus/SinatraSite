@@ -124,6 +124,10 @@ a {
   font-family: 'Lato', sans-serif;
 }
 
+a:active {
+  color: #ED4A2E;
+}
+
 nav {
   padding-top: 5px;
   padding-left: 10px;
